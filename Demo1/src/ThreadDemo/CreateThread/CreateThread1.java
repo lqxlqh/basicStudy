@@ -5,7 +5,7 @@ package ThreadDemo.CreateThread;
  * @create 2019-12-03
  * @Info(使用继承Thread类)
  */
-class ThreadDemo extends Thread{
+class ThreadDemo1 extends Thread{
     @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
@@ -20,7 +20,7 @@ class ThreadDemo extends Thread{
 }
 public class CreateThread1 {
     public static void main(String[] args) throws InterruptedException {
-        ThreadDemo threadDemo1 = new ThreadDemo();
+        ThreadDemo1 threadDemo1 = new ThreadDemo1();
         threadDemo1.start();
         for (int i = 0; i <100 ; i++) {
             Thread.currentThread().sleep(100);
