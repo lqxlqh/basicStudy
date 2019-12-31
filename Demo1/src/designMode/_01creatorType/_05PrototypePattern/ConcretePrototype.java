@@ -6,7 +6,7 @@ import jdk.nashorn.internal.runtime.PrototypeObject;
  * @author lin
  * @create 2019-12-30
  * @Info(原型模式)
- * @Notes--(具体原型类)
+ * @Notes--(具体原型类--通用实现方法)
  */
 public class ConcretePrototype implements Prototype {
     //成员属性
