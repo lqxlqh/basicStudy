@@ -17,6 +17,7 @@ public class WeeklyLog implements Cloneable{
         try {
             object=super.clone();
         } catch (CloneNotSupportedException e) {
+            System.out.println("不支持复制！");
             e.printStackTrace();
         }
         return (WeeklyLog) object;
@@ -44,5 +45,14 @@ public class WeeklyLog implements Cloneable{
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    @Override
+    public String toString() {
+        return "周报{" +
+                "姓名='" + name + '\'' +
+                ", 周次='" + data + '\'' +
+                ", 内容='" + content + '\'' +
+                '}';
     }
 }
