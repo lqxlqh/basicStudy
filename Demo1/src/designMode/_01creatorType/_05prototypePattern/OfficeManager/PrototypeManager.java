@@ -1,4 +1,4 @@
-package designMode._01creatorType._05PrototypePattern.OfficeManager;
+package designMode._01creatorType._05prototypePattern.OfficeManager;
 
 
 import java.util.Hashtable;

@@ -1,6 +1,4 @@
-package designMode._01creatorType._05PrototypePattern;
-
-import jdk.nashorn.internal.runtime.PrototypeObject;
+package designMode._01creatorType._05prototypePattern;
 
 /**
  * @author lin

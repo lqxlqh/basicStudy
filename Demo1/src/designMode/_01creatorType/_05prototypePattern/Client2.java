@@ -1,6 +1,4 @@
-package designMode._01creatorType._05PrototypePattern;
-
-import java.io.IOException;
+package designMode._01creatorType._05prototypePattern;
 
 /**
  * @author lin

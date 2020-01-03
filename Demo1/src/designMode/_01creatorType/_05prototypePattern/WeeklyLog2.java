@@ -1,4 +1,4 @@
-package designMode._01creatorType._05PrototypePattern;
+package designMode._01creatorType._05prototypePattern;
 
 import java.io.*;
 
